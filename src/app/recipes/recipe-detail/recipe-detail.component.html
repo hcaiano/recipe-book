@@ -1,0 +1,19 @@
+<div class="row">
+  <div class="col-md-12">
+    <img src="{{selectedRecipe?.imagePath}}" class="img-fluid">
+    <h1>
+      {{selectedRecipe?.name}}
+    </h1>
+    <div class="recipe-navigation">
+      <button type="button" class="btn btn-sm btn-outline-success">To Shopping List</button>
+      <button type="button" class="btn btn-sm btn-outline-primary">Edit</button>
+      <button type="button" class="btn btn-sm btn-outline-danger">Delete</button>
+    </div>
+    <hr>
+    <h4>Description</h4>
+    <p>
+      {{selectedRecipe?.description}}
+    </p>
+    <h4>Ingredients</h4>
+  </div>
+</div>

@@ -1,3 +1,4 @@
-<p>
-  recipe-list works!
-</p>
+<button type="button" class="btn btn-primary btn-block mb-4 mt-4 text-uppercase">Create New Recipe</button>
+<div class="row">
+  <rb-recipe-item [recipe]="recipeInfo" (click)="onSelected(recipeInfo)"></rb-recipe-item>
+</div>
